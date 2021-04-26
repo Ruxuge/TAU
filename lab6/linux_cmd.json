@@ -1,0 +1,47 @@
+{
+    "ls": {
+      "name": "ls",
+      "description": "list directory contents",
+      "args": {
+        "-a": "do not ignore entries starting with .",
+        "-b": "print C-style escapes for nongraphic characters"
+      }
+    },
+
+    "rm": {
+      "name": "rm",
+      "description": "remove files or directories",
+      "args": {
+        "-i": "prompt before every removal",
+        "-r": "remove directories and their contents recursively"
+      }
+    },
+
+    "cd": {
+      "name": "cd",
+      "description": "change the working directory",
+      "args": {
+        "-l": "Handle the operand dot-dot logically",
+        "-p": "Handle the operand dot-dot physically"
+      }
+    },
+
+    "cp": {
+      "name": "cp",
+      "description": "copy files and directories",
+      "args": {
+        "-l": "always follow symbolic links in SOURCE",
+        "-r": "copy directories recursively"
+      }
+    },
+
+    "tree": {
+      "name": "tree",
+      "description": "List the contents of a tree object",
+      "args": {
+        "-d": "Show only the named tree entry itself, not its children.",
+        "-r": "Recurse into sub-trees."
+      }
+    }
+
+}
